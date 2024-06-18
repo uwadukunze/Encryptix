@@ -3,94 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StellarServe Solutions</title>
+    <title>Stellarserve Solutions</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
+            line-height: 1.6;
         }
         header {
-            background-color: #0f2e3e;
+            background-color: #343a40;
             color: #fff;
-            padding: 20px 10%;
+            padding: 20px 0;
             text-align: center;
         }
         header h1 {
             margin: 0;
             font-size: 2.5em;
+            font-weight: 700;
         }
         header p {
             font-size: 1.2em;
+            font-weight: 400;
         }
         section {
-            padding: 50px 10%;
+            padding: 50px 0;
         }
-        .cta {
-            background-color: #0f2e3e;
-            color: #fff;
-            padding: 20px;
+        .about, .services, .features, .testimonials, .team, .contact {
             text-align: center;
-        }
-        .cta a {
-            background-color: #2cc3a6;
-            color: #fff;
-            padding: 10px 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .services, .features, .testimonials, .team, .contact {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
         }
         .service, .feature, .testimonial, .team-member, .contact-info, .form-container {
-            flex: 1 1 calc(33% - 20px);
-            margin: 10px;
-            padding: 20px;
+            margin-bottom: 40px;
+            padding: 30px;
             background-color: #fff;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .service:hover, .feature:hover, .testimonial:hover, .team-member:hover, .contact-info:hover, .form-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
         }
         footer {
-            background-color: #0f2e3e;
+            background-color: #343a40;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 20px 0;
         }
-        form {
-            display: flex;
-            flex-direction: column;
+        .cta a {
+            display: inline-block;
+            background-color: #2cc3a6;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #239f86;
         }
         form input, form textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            transition: border-color 0.3s ease;
+        }
+        form input:focus, form textarea:focus {
+            border-color: #2cc3a6;
         }
         form button {
-            padding: 10px;
+            width: 100%;
+            padding: 15px;
             background-color: #2cc3a6;
             color: #fff;
             border: none;
-            border-radius: 4px;
+            border-radius: 5px;
             cursor: pointer;
+            transition: background-color 0.3s ease;
         }
         form button:hover {
             background-color: #239f86;
+        }
+        .social-links a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s ease;
+        }
+        .social-links a:hover {
+            color: #2cc3a6;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>StellarServe Solutions</h1>
-        <p>Hire the Best Remote Talent Worldwide with StellarServe Solutions</p>
+        <h1>Stellarserve Solutions</h1>
+        <p>Hire the Best Remote Talent Worldwide with Stellarserve Solutions</p>
     </header>
     <section class="about">
         <h2>Who We Are</h2>
-        <p>StellarServe Solutions revolutionizes tech hiring for startups & SMEs. We connect you with top-tier remote talent in AI, ML, software development, cybersecurity, and data science.</p>
+        <p>Stellarserve Solutions revolutionizes tech hiring for startups & SMEs. We connect you with top-tier remote talent in AI, ML, software development, cybersecurity, and data science.</p>
     </section>
     <section class="services">
         <h2>Our Services</h2>
@@ -115,52 +134,9 @@
             <p>Get tailored solutions to match your unique hiring needs and build a world-class remote team that drives innovation.</p>
         </div>
     </section>
-    <section class="features">
-        <h2>Our Features</h2>
-        <div class="feature">
-            <h3>Quality Assurance</h3>
-            <p>Through our rigorous vetting process, we guarantee access to highly skilled professionals, eliminating the risk of hiring unqualified candidates.</p>
-        </div>
-        <div class="feature">
-            <h3>Global Talent Reach</h3>
-            <p>Our extensive network spans across borders, allowing companies to tap into a diverse pool of remote talent, irrespective of geographical limitations.</p>
-        </div>
-        <div class="feature">
-            <h3>Cost Efficiency</h3>
-            <p>By eliminating the need for costly recruitment intermediaries and reducing recruitment time, we provide a cost-effective solution for companies seeking specialized remote talent.</p>
-        </div>
-        <div class="feature">
-            <h3>Scalability</h3>
-            <p>With our platform, companies can scale their teams quickly and efficiently to meet project demands and business objectives, without the overheads associated with traditional hiring methods.</p>
-        </div>
-    </section>
-    <section class="testimonials">
-        <h2>What Our Clients Say</h2>
-        <div class="testimonial">
-            <p>"StellarServe Solutions transformed our IT infrastructure, making it more efficient and scalable."</p>
-        </div>
-        <div class="testimonial">
-            <p>"Their cloud solutions are second to none."</p>
-        </div>
-        <div class="testimonial">
-            <p>"Hiring remote talent has never been easier with StellarServe Solutions."</p>
-        </div>
-    </section>
-    <section class="team">
-        <h2>Meet Our Team</h2>
-        <div class="team-member">
-            <h3>John Doe</h3>
-            <p>CEO</p>
-        </div>
-        <div class="team-member">
-            <h3>Jane Smith</h3>
-            <p>CTO</p>
-        </div>
-        <!-- Add more team members as needed -->
-    </section>
     <section class="cta">
         <h2>Ready to Transform Your Hiring Process?</h2>
-        <p>Join StellarServe Solutions and start hiring the best remote talent today.</p>
+        <p>Join Stellarserve Solutions and start hiring the best remote talent today.</p>
         <a href="#contact">Get Started</a>
     </section>
     <section class="contact" id="contact">
@@ -190,13 +166,14 @@
             <h3>Phone</h3>
             <p><a href="tel:+250786399699">+250786399699</a></p>
         </div>
-        <div class="contact-info">
+        <div class="contact-info social-links">
             <h3>Social Media</h3>
-            <p><a href="https://www.linkedin.com/company/stellarserve-solutions/">LinkedIn</a> | <a href="#">Twitter</a> | <a href="#">Facebook</a></p>
+            <a href="https://www.linkedin.com/company/stellarserve-solutions/" target="_blank">LinkedIn</a>
+            <!-- Add other social media links if needed -->
         </div>
     </section>
     <footer>
-        <p>&copy; 2024 StellarServe Solutions. All rights reserved.</p>
+        <p>&copy; 2024 Stellarserve Solutions. All rights reserved.</p>
     </footer>
 </body>
 </html>
