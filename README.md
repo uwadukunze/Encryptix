@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stellarserve Solutions</title>
+    <title>StellarServe Solutions</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -90,29 +90,29 @@
     </header>
     <section class="about">
         <h2>Who We Are</h2>
-        <p>StellarServe Solutions is dedicated to connecting companies with top-tier remote talent through a streamlined digital platform. Our rigorous vetting process ensures you get access to the best professionals worldwide.</p>
+        <p>StellarServe Solutions revolutionizes tech hiring for startups & SMEs. We connect you with top-tier remote talent in AI, ML, software development, cybersecurity, and data science.</p>
     </section>
     <section class="services">
         <h2>Our Services</h2>
         <div class="service">
-            <h3>Custom Software Development</h3>
-            <p>We provide tailored software development solutions to meet your specific business needs, ensuring high-quality and scalable software products.</p>
+            <h3>Top-tier Remote Talent</h3>
+            <p>We connect startups & SMEs with skilled remote professionals in AI, ML, software development, cybersecurity, and data science.</p>
         </div>
         <div class="service">
-            <h3>Cloud Solutions</h3>
-            <p>Leverage our cloud expertise to enhance your IT infrastructure with scalable, secure, and cost-effective cloud solutions.</p>
+            <h3>AI-Powered Hiring Platform</h3>
+            <p>Our AI-powered platform streamlines hiring, reduces costs, and ensures quality, making tech recruitment efficient and effective.</p>
         </div>
         <div class="service">
-            <h3>IT Consultancy</h3>
-            <p>Get expert advice and strategic guidance on your IT projects to optimize performance and achieve your business goals.</p>
+            <h3>Global Talent Reach</h3>
+            <p>Hire skilled remote professionals globally, scale your team efficiently, and achieve business goals irrespective of geographical limitations.</p>
         </div>
         <div class="service">
-            <h3>Remote Talent Placement</h3>
-            <p>Hire top-tier remote professionals through our rigorous vetting process, ensuring you get the best talent for your projects.</p>
+            <h3>Agile Hiring Solutions</h3>
+            <p>Ideal for tech startups with 5-20 employees, offering agile hiring and access to a broader talent pool to fuel growth.</p>
         </div>
         <div class="service">
-            <h3>Comprehensive Support</h3>
-            <p>Benefit from end-to-end support, from hiring to onboarding and managing remote employees, ensuring a smooth and efficient process.</p>
+            <h3>Custom Talent Solutions</h3>
+            <p>Get tailored solutions to match your unique hiring needs and build a world-class remote team that drives innovation.</p>
         </div>
     </section>
     <section class="features">
